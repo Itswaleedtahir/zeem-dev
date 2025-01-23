@@ -1,0 +1,64 @@
+# Node modules and dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output of the TypeScript compiler
+dist/
+out-tsc/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# MacOS files
+.DS_Store
+
+# Coverage directory used by testing tools
+coverage/
+
+# Ignore compiled JavaScript files
+*.js
+*.js.map
+
+# Optional eslint cache
+.eslintcache
+
+# Ignore the nest CLI cache
+.cache/
+
+# Ignore specific files/folders used by various tooling
+/.husky/
+.editorconfig
+.prettierignore
+.prettierrc
+stylelint.config.js
+
+# Ignore Docker files
+docker-compose.override.yml
+docker-compose.prod.yml
+docker-compose.yml
+Dockerfile
+
+dist/tsconfig.build.tsbuildinfo
+/uploads
+
